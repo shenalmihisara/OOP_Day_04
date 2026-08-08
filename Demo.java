@@ -153,7 +153,7 @@ class stack{
 	}
 	
 	public void pop(){
-		if(isEmpty()){
+		if(!isEmpty()){
 			nextIndex--;
 		}
 	}
